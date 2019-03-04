@@ -1,0 +1,14 @@
+{
+  "name": "p5-boilerplate",
+  "version": "1.0.0",
+  "description": "A basic boilerplate for a p5.js project",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kelly Barber",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
