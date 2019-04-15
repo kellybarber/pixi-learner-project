@@ -1,7 +1,7 @@
 {
-  "name": "p5-boilerplate",
+  "name": "pixi-boilerplate",
   "version": "1.0.0",
-  "description": "A basic boilerplate for a p5.js project",
+  "description": "A basic boilerplate for a pixi.js project",
   "main": "sketch.js",
   "scripts": {
     "start": "browser-sync start --server --files '*'"
