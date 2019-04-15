@@ -5,15 +5,18 @@
     <title>main.js</title>
     <script src="libraries/pixi.min.js" type="text/javascript"></script>
     <script src="main.js" type="text/javascript"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
   </head>
   <body>
     <script type="text/javascript">
-      let type = "WebGL"
-      if(!PIXI.utils.isWebGLSupported()){
-        type = "canvas"
-      }
-  
-      PIXI.utils.sayHello(type)
+      window.addEventListener('load', () => {
+        setup()
+      })
     </script>
   </body>
 </html>
